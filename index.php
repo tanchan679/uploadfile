@@ -26,7 +26,7 @@ Nhap link anh:
         var image = document.getElementById("link").value;
 
 
-        var public_id = "hmm";
+        var public_id = "jhgjghjgh gdfgdfg dfgfdg df"; //Đây là tên ảnh, muốn đặt sao thì tùy
         var api_key = "733379729972125"; //Key cong khai tu https://cloudinary.com/
         var eager = "w_400,h_300,c_pad|w_260,h_200,c_crop"; //Cat anh gốc thành 2 kich thuoc khac nhau la, 400x300 va 260x200 (ảnh gốc vẫn sẽ được giữ nguyên, nhưng có thêm 2 ảnh cắt naỳ)
         var timestamp = Math.floor(Date.now() / 1000); //Get time Unix
